@@ -47,6 +47,7 @@ If you have windows setup and you need to have both windows and Ubuntu installed
   </br>
   ```
   $ sudo apt-get update
+  
   $ sudo apt-get upgrade
   ```
 
@@ -66,7 +67,7 @@ If you have windows setup and you need to have both windows and Ubuntu installed
   - **[Ubuntu]** Install `build-essential` and `libssl-dev` packages through apt:
   </br>
     ```
-    $ sudo apt install build-essential libssl-dev
+    $ sudo apt-get install build-essential libssl-dev
     ```
   - run the following command to install nvm
   </br>
@@ -97,7 +98,7 @@ $ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 
 $ echo "deb http://repo.mongodb.org/apt/ubuntu "$(lsb_release -sc)"/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
 
-$ sudo apt update
+$ sudo apt-get update
 
 $ sudo apt-get install -y mongodb-org
 
@@ -115,7 +116,7 @@ $ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
 
 $ echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
 
-$ sudo apt update
+$ sudo apt-get update
 
 $ sudo apt-get install -y mongodb-org
 
